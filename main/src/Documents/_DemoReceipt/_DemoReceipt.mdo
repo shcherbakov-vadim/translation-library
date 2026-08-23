@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36c5c022-00e3-4488-ac8d-6a50c0cae02d">
+  <producedTypes>
+    <objectType typeId="36dfdb6e-e8dc-4e5c-9dff-20eec8b8843e" valueTypeId="6fb26d06-0816-4813-a9f7-7dcce28f192c"/>
+    <refType typeId="36e497d9-b005-48ac-8773-d0ad4d466079" valueTypeId="4522b1bb-2b12-449a-a6ff-63703808137d"/>
+    <selectionType typeId="f476cdff-796a-45fe-942f-446fd14a1d59" valueTypeId="919c8480-76ee-46fc-91a8-2998e87834f4"/>
+    <listType typeId="aef0c76f-f67f-4589-ba85-a0a5c6b0ff26" valueTypeId="3408f392-092d-4409-b10a-9691d350c101"/>
+    <managerType typeId="aad02cb5-ecbf-4ee8-b692-f420d74782e8" valueTypeId="9a5b5d14-54ed-439e-98cf-20b00259502e"/>
+  </producedTypes>
+  <name>_DemoReceipt</name>
+  <synonym>
+    <key>en</key>
+    <value>Demo: Receipt</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Поступление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document._DemoReceipt.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document._DemoReceipt.Form.DocumentForm</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="f03e945f-bef0-4006-958d-1cfeea97eaaa">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

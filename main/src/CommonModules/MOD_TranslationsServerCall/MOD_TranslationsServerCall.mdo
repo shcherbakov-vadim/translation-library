@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42c9d09f-5bb8-430a-a627-94eb1ac0be92">
+  <name>MOD_TranslationsServerCall</name>
+  <synonym>
+    <key>en</key>
+    <value>MOD translations server call</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

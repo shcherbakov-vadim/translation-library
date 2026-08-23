@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27f97e97-032d-4949-9a25-7e0af13b2cee">
+  <name>MOD_TranslationsClientServerGlobal</name>
+  <synonym>
+    <key>en</key>
+    <value>MOD translations client server global</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

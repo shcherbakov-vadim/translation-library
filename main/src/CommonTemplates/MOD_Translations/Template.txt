@@ -1,0 +1,23 @@
+{
+	"MainLanguage": "en",
+	"Strings" :  [
+		{
+			"Text": "Procedure OnCreateAtServer was called",
+			"1": {
+				"ru": "Была вызвана процедура ПриСозданииНаСервере",
+			},
+		},
+		{
+			"Text": [
+				"Procedure OnOpen was called.",
+				"After that form considered to be opened"
+			],
+			"1": {
+				"ru": [
+					"Была вызвана процедура ПриОткрытии.",
+					"После этого форма считается открытой"
+				],
+			},
+		}
+	],
+}
