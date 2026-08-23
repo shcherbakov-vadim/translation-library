@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="033b4d8f-4307-49ef-91b7-0eaeb4f7aa0c">
+  <name>TranslationLibrary</name>
+  <synonym>
+    <key>en</key>
+    <value>Translation library</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2e9b3e78-4a25-4f31-a7ee-984b1417a473"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f9e05210-9d59-4b33-8332-47655fd13db8"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="377cf915-aa77-4960-82de-f20cff3f2b8c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="95362075-ea20-486f-8714-ff42ccb7419b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="779264ac-f843-4051-a61d-52ae43b2f548"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="83e0acdb-1789-4737-8c59-b10e6a451ead"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="001eede1-b8be-40fa-a590-fdf1502cb5a0"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <vendor>Vadiim Shcherbakov</vendor>
+  <version>1.0.1.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <copyright>
+    <key>en</key>
+    <value>Copyright (c) 2026, Vadim Shcherbakov, chtcherbakov.vadim@gmail.com</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>en</key>
+    <value>https://github.com/shcherbakov-vadim</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>en</key>
+    <value>https://github.com/shcherbakov-vadim/translation-library</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="327edae0-1c39-4e88-82ab-af572ab0796e">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <languages uuid="76986a2a-eb0e-4a4a-a835-3ce46515be69">
+    <name>Russian</name>
+    <synonym>
+      <key>en</key>
+      <value>Russian</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.FullAccess</roles>
+  <commonTemplates>CommonTemplate.MOD_Translations</commonTemplates>
+  <commonModules>CommonModule.MOD_TranslationsClientServerCached</commonModules>
+  <commonModules>CommonModule.MOD_TranslationsClientServerGlobal</commonModules>
+  <commonModules>CommonModule.MOD_TranslationsServerCached</commonModules>
+  <commonModules>CommonModule.MOD_TranslationsServerCall</commonModules>
+  <documents>Document._DemoReceipt</documents>
+</mdclass:Configuration>
